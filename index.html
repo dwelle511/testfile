@@ -1,0 +1,33 @@
+<!DOCTYPE html><!--로그인 시도2-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOgin_Sanga</title>
+    <link rel="stylesheet" href="css/ring.css">
+    <script type="module" scr=""></script>
+</head>
+<body>
+    <div class="ring">
+    <i style="--clr:#00ff0a;"></i>
+    <i style="--clr:#ff0057;"></i>
+    <i style="--clr:#fffd44;"></i>
+    <div class="login">
+        <h3>Login</h3>
+        <div class="inputBx"><input tyle="text" placeholder="Username"></div>
+        <div class="inputBx"><input type="password"placeholder="Password"></div>
+        <div class="inputBx"><input tyle="submit" value="Sign in"></div>
+        <div class="links"><a href="#">forget password</a><a href="#">sign up</a></div>
+        
+    
+    </div>
+</div>
+<script>
+    let popup= document.querySelector('.area_popup');
+    popup.onclick = function(){
+        popup.classList.toggle('active')
+    }
+</script>
+
+</body>
+</html>
