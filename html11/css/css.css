@@ -1,0 +1,27 @@
+.sp{ color : #eee;}
+.div1{border:1px solid black;}
+.table1 td{border : 1px solid black;}
+.table1{border:1px solid black;
+    border-collapse: collapse;}
+
+main{margin : 30px 10;}
+header footer 
+.cc{background-color : green;}
+.nav ul li{display : inline; float : left;}    
+
+aside{flex : 1;
+    border:red 1px solid ;
+    display : inline-block; 
+    float : left;
+
+    margin : 20px;
+    padding : 20px;
+}
+article{display: inline-block; 
+    border: red 2px solid; 
+    margin : 20px; 
+    float : left;  padding :30px; margin-bottom:30px;}
+section{border: orange solid 1px;
+    width:auto; margin-top:5em;}
+
+datails{}

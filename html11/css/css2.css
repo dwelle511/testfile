@@ -1,0 +1,56 @@
+.container{
+    width :90%;
+    max-width: 1000px;
+    margin :auto;
+
+
+}
+main .container{
+    display : flex;
+    flex-direction :row;
+}
+.header .footer{
+    background: black;
+    border: 2px mediumseagreen dashed;
+    text-align : center;
+    padding :20px 0;
+
+}
+.nav1 ul li{
+    display: inline-block;
+    padding :33px;
+    float:both;
+}
+.art1{
+    flex:1;
+    margin-right:10px;
+    width : 200px;
+    padding :20px;
+    border : solid black 2px;
+
+}
+.art2{
+    flex:1;
+    margin-right:10px;
+    width : 200px;
+    padding :30px;
+    border : solid black 2px;
+
+}
+.section1{
+    padding : 2px;
+    margin : 1px;
+}
+.asi{
+    width :20p;
+    height :30px;
+    float: right;
+}
+
+.tags a{
+    width: 20px;
+    height: 49px;
+    color : gray;
+    border-radius : 3px;
+    float: right;
+}
